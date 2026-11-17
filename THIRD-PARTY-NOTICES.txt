@@ -1,0 +1,35 @@
+قطرة (Qatra) — إشعارات المكوّنات الخارجية
+==========================================
+
+يحتوي هذا التطبيق على المكوّنات مفتوحة المصدر التالية، مربوطةً إليه كما هي:
+
+1. yt-dlp (vendor/bin/yt-dlp.exe)
+   - الوظيفة: محرك التنزيل
+   - الترخيص: Unlicense (ملكية عامة)
+   - المشروع: https://github.com/yt-dlp/yt-dlp
+   - الرخصة: licenses/yt-dlp-LICENSE.txt
+
+2. FFmpeg (vendor/bin/ffmpeg.exe) — بناء "essentials" من gyan.dev
+   - الوظيفة: دمج مسارات الفيديو/الصوت والترميز والاستخراج
+   - الترخيص: LGPL 2.1 أو أحدث
+   - المشاريع: https://ffmpeg.org/ | https://www.gyan.dev/ffmpeg/builds/
+   - الرخصة: licenses/ffmpeg-LGPL-2.1.txt
+   - الشيفرة المصدرية: المقابلة لإصدار ffmpeg-9.0.2 ضمنيًا متاحة من gyan.dev ومن ffmpeg.org.
+   - يجوز استبدال الملف vendor/bin/ffmpeg.exe بنسخة أخرى متوافقة من FFmpeg دون تعديل بقية التطبيق.
+
+3. Deno (vendor/bin/deno.exe)
+   - الوظيفة: JavaScript runtime يستخدمه yt-dlp لحل تحديات يوتيوب (EJS)
+   - الترخيص: MIT
+   - المشروع: https://deno.com/ | https://github.com/denoland/deno
+   - الرخصة: licenses/deno-LICENSE.txt
+
+4. aria2c (vendor/bin/aria2c.exe)
+   - الوظيفة: تنزيل متعدد الاتصالات (Open source download utility) يستخدمه yt-dlp كمنفّذ للتنزيل
+   - الترخيص: GNU GPL 2.0
+   - المشروع: https://github.com/aria2/aria2
+   - الرخصة: licenses/aria2-LICENSE.txt
+   - الشيفرة المصدرية: متاحة على مستودع aria2 الرسمي على GitHub.
+
+بقية المكوّنات (Electron، Chromium) تخضع لرخصها الخاصة ويمكن الاطلاع عليها من داخل التطبيق عبر الصفحات الداخلية للإلكترون.
+
+قطرة نفسها مرخّصة بترخيص MIT.
