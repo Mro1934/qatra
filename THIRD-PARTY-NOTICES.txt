@@ -23,13 +23,6 @@
    - المشروع: https://deno.com/ | https://github.com/denoland/deno
    - الرخصة: licenses/deno-LICENSE.txt
 
-4. aria2c (vendor/bin/aria2c.exe)
-   - الوظيفة: تنزيل متعدد الاتصالات (Open source download utility) يستخدمه yt-dlp كمنفّذ للتنزيل
-   - الترخيص: GNU GPL 2.0
-   - المشروع: https://github.com/aria2/aria2
-   - الرخصة: licenses/aria2-LICENSE.txt
-   - الشيفرة المصدرية: متاحة على مستودع aria2 الرسمي على GitHub.
-
 بقية المكوّنات (Electron، Chromium) تخضع لرخصها الخاصة ويمكن الاطلاع عليها من داخل التطبيق عبر الصفحات الداخلية للإلكترون.
 
 قطرة نفسها مرخّصة بترخيص MIT.
